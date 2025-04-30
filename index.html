@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>أذكار الصباح</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+      .azkar-item {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+      button {
+        height: 50px;
+        width: 200px;
+        border-radius: 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>أذكار الصباح</h1>
+    <p>اضغط على الزر لعرض الأذكار</p>
+    <button onclick="render()">عرض الأذكار</button>
+    <div id="container"></div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
